@@ -29,3 +29,8 @@ body {
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
+
+.project-link:hover {
+background-color: white;
+color: #0E0C0A;
+}
