@@ -55,7 +55,7 @@ body{
     text-align: left;
   }
   .project.responsive{
-     width: 300px;
+     max-width: 300px;
   }
 }
 .project {
@@ -70,7 +70,7 @@ body{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-shadow: 1px 0px 1px;
     box-shadow: 3px 0px 12px 12px #e9ebe9;
-    max-width:900px;
+    max-width: 900px;
 }
 
 .project-title {
