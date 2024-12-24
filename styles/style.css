@@ -54,18 +54,23 @@ body{
     display: block;
     text-align: left;
   }
+  .project.responsive{
+     width: 300px;
+  }
 }
 .project {
     background-color: #ffffff;
+    color: #333;
     border: 1px solid #ddd;
     border-radius: 15px;
     padding: 15px;
     margin: 0 auto;
+    margin-top: 50px;
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-shadow: 1px 0px 1px;
-    box-shadow: 3px 0px 12px 12px #d7d7d9;
-    max-width:300px;
+    box-shadow: 3px 0px 12px 12px #e9ebe9;
+    max-width:900px;
 }
 
 .project-title {
