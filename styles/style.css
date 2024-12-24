@@ -54,7 +54,7 @@ body{
     display: block;
     text-align: left;
   }
-  .project.responsive .project{
+  .project {
      max-width: 300px;
   }
 }
