@@ -56,6 +56,8 @@ body{
   }
   .project {
      max-width: 300px;
+     margin: 0 10px;
+     padding: 15px;
   }
 }
 .project {
