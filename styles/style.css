@@ -14,6 +14,7 @@ body {
 }
 
 .project {
+    position: relative;
     background-color: #ffffff;
     border-radius: 14px;
     padding: 25px 30px;
@@ -55,6 +56,27 @@ body {
     transform: scale(1.05);
 }
 
+.tag, .project-date {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tag.wip {
+    background-color: rgba(255, 165, 0, 0.8);
+    color: #ffffff;
+}
+
+.project-date {
+    background-color: rgba(200, 200, 200, 0.2);
+    color: #222;
+}
+
 @media (max-width: 600px) {
     body {
         padding: 20px 10px;
@@ -66,5 +88,12 @@ body {
 
     .project-title {
         font-size: 20px;
+    }
+
+    .tag, .project-date {
+        top: 12px;
+        right: 12px;
+        font-size: 11px;
+        padding: 4px 10px;
     }
 }
